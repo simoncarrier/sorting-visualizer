@@ -1,0 +1,35 @@
+.array-container {
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.array-bar {
+  width: 3px;
+  background-color: blue;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.menu-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menu-container button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
